@@ -1,0 +1,23 @@
+.card{
+    margin: 10px;
+}
+
+
+
+.icon-empty{
+    color:red;
+}
+
+.text-icon{
+    color: black !important;
+    padding-left: 10px;
+}
+
+
+.icon-green{
+    color:green;
+}
+
+i{
+    cursor: pointer;
+}

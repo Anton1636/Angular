@@ -1,0 +1,12 @@
+<div class="card">
+  <img class="card-img-top" height="200" [src]="currentEvent.image_url" alt="Card image cap">
+  <div class="card-body">
+
+    <h5 class="card-title">{{currentEvent.name}}</h5>
+
+    <i *ngIf="isPriority == false" (click)="setPriority()" class="far fa-check-square fa-2x icon-empty"> </i>
+    <i *ngIf="isPriority == true" (click)="setPriority()" class="fas fa-check-square fa-2x icon-green"></i>
+
+    <p class="card-text"><small class="text-muted">{{currentEvent.dateStarted}}</small></p>
+  </div>
+</div>
